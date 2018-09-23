@@ -1,2 +1,2 @@
-# NOPS
-Numerical OPerators for Houdini. Process and visualize complex data sets with simple tools.
+# SHNOPs
+Simple Houdini Numerical OPerators. Process and visualize complex data sets with simple tools.
