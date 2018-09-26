@@ -18,9 +18,12 @@ If you've installed Houdini tools before, you're probably tired of seeing this, 
     - If you just want to get up and running and don't have Git installed, just download [the latest zip](https://github.com/profbetis/SHNOPs/archive/master.zip) and unzip it here.
     - If you want to use git, copy the HTTPS link (https://github.com/profbetis/SHNOPs.git) or the SSH one (git@github.com:profbetis/SHNOPs.git), and `git clone` it here.
 3. **Edit** your Houdini environment file. We're going to use this file to tell Houdini to automatically look for all the OTLs in the SHNOPs folder so that any updates will be automatic (on program startup).
-    - On Windows, this file is by default found at `C:\users\<username>\documents\HoudiniX.X\houdini.env` (X.X being the version of Houdini, like 16.5, without the build number)
+    - On Windows, this file is by default found at `C:\Users\<Username>\Documents\HoudiniX.X\houdini.env` (X.X being the version of Houdini, like 16.5, without the build number)
     - For Macs, it's found at `~/Library/Preferences/houdini/X.X/houdini.env`
-    - Linux, `~/houdiniX.X/houdini.env`. (but if you're using Houdini on Linux, you probably already knew that)
+    - Linux, `~/houdiniX.X/houdini.env`. (but if you're using Houdini on a Linux machine, you probably already knew that)
+    1. Open this file with your text editor of choice.
+    2. Pick a line above `HOUDINI_OTLSCAN_PATH` and add the line `SHNOPS = "/where/you/put/SHNOPs"`, obviously replacing that with the actual location of the SHNOPs folder.
+    3. In the previously mentioned `HOUDINI_OTLSCAN_PATH` line, insert/append `$SHNOPS/otls` appropriately.
 
 ## Getting Started
 Assuming everything went smoothly with the installation, we should be ready to wrangle some data sets.
