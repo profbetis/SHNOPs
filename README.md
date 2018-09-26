@@ -1,6 +1,6 @@
-Process, analyze, and visualize complex data sets with Simple Houdini Number OPerators.
-
 ![Logo](https://github.com/profbetis/SHNOPs/blob/meta/shnops_banner.svg)
+
+Process, analyze, and visualize complex data sets with Simple Houdini Number OPerators.
 
 ## The Gist
 There are lots of programs out there that can take in data sets and spit out some charts. Some look prettier than others, and some have neat tricks. What they usually don't have is the real power to wrangle your data into stunning and enlightening visualizations.
