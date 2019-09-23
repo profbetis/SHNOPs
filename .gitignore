@@ -2,3 +2,6 @@ backup
 otls/backup
 ignore
 *.hip*
+*.pref
+*.def
+toolbar
