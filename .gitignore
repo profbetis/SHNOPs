@@ -1,4 +1,6 @@
-backup
-otls/backup
+*backup*
 ignore
 *.hip*
+*.pref
+*.def
+toolbar
