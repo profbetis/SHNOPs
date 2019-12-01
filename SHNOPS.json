@@ -1,0 +1,9 @@
+{
+	"env": [
+		{
+			"SHNOPS": "C:/tools/houdini/SHNOPs"
+		},
+	],
+	"path": "$SHNOPS"
+
+}
